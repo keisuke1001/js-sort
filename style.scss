@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$red: #eb3b5a;
+$green: #20bf6b;
+$blue: #3867d6;
+
+.control {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-right: 30px;
+  text-align: center;
+  width: 90px;
+  height: 30px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.all-btn {
+  @extend .btn;
+  background-color: #000;
+}
+
+.red-btn {
+  @extend .btn;
+  background-color: $red;
+}
+
+.blue-btn {
+  @extend .btn;
+  background-color: $blue;
+  margin-right: 0;
+}
+
+.green-btn {
+  @extend .btn;
+  background-color: $green;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(5,100px);
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.red-item {
+  background-color: $red;
+  width: 100px;
+  height: 100px;
+}
+
+.blue-item {
+  background-color: $blue;
+  width: 100px;
+  height: 100px;
+}
+
+.green-item {
+  background-color: $green;
+  width: 100px;
+  height: 100px;
+}
+
+.inactive {
+  display: none;
+}
