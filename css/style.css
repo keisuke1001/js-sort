@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.control {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn, .all-btn, .red-btn, .blue-btn, .green-btn {
+  margin-right: 30px;
+  text-align: center;
+  width: 90px;
+  height: 30px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.all-btn {
+  background-color: #000;
+}
+
+.red-btn {
+  background-color: #eb3b5a;
+}
+
+.blue-btn {
+  background-color: #3867d6;
+  margin-right: 0;
+}
+
+.green-btn {
+  background-color: #20bf6b;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.red-item {
+  background-color: #eb3b5a;
+  width: 100px;
+  height: 100px;
+}
+
+.blue-item {
+  background-color: #3867d6;
+  width: 100px;
+  height: 100px;
+}
+
+.green-item {
+  background-color: #20bf6b;
+  width: 100px;
+  height: 100px;
+}
+
+.inactive {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
